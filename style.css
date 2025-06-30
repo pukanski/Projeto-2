@@ -93,7 +93,7 @@ button:disabled {
     margin: 10px auto;
 }
 
-.caixinhaExemplo .botoes-acao {
+.caixinhaExemplo .botoes {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;

@@ -5,11 +5,11 @@ function JogoMedia(){
     quantidade = Number(quantidade);
 
     if (quantidade <= 0 || quantidade === null || quantidade === "" || typeof quantidade !== "number") {
-    alert("Quantidade inválida. Tente novamente com um número maior que zero.");
+        alert("Quantidade inválida. Tente novamente com um número maior que zero.");
     } else {
-    let soma = 0;
+        let soma = 0;
 
-    for (let i = 1; i <= quantidade; i++) {
+        for (let i = 1; i <= quantidade; i++) {
         let entrada = prompt(`Digite o ${i}º número:`);
         let numero = Number(entrada);
 

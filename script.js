@@ -32,7 +32,6 @@ function JogoNumeroSecreto(){
     alert('Seja bem-vindo ao nosso jogo!');
 
     let numeroSecreto = 5;
-    console.log(numeroSecreto);
 
     let chute;
     let tentativas = 0;
